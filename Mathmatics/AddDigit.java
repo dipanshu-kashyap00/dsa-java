@@ -4,7 +4,7 @@ package Mathmatics;
 
 public class AddDigit {
 
-    public static int AddDigit(int n) {
+    public static int addDigit(int n) {
         if (n == 0) {
             return 0;
         }
@@ -15,7 +15,7 @@ public class AddDigit {
     }
 
     public static void main(String[] args) {
-        System.out.println(AddDigit(1234));
+        System.out.println(addDigit(1234));
     }
 }
 
